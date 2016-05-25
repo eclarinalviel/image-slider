@@ -4,28 +4,31 @@
 	
 </head>
 <body>
-	<div class="container">
-<!-- 	<h4>Image Slider</h4> -->
+	<!-- Image Carousel -->
 		<div class="carousel">
 		  <ul>
 		    <li>
-		      <img src="image1.jpg" />
-		     <!--  <div class="content">Raindrops</div> -->
+		      <img src="image1.jpg" id="img-1"/>
 		    </li>
 		    <li>
-		      <img src="image2.jpg" />
-		     <!--  <div class="content">Cascade</div> -->
+		      <img src="image2.jpg" id="img-2"/>
 		    </li>
 		    <li>
-		      <img src="image3.png" />
-		      <!-- <div class="content">Euphoria</div> -->
+		      <img src="image3.png" id="img-3"/>
 		    </li>
 		  </ul>
 		<button class="prev">Previous</button>
 	  	<button class="next">Next</button>
+		<!-- Pagination -->
+		  	<div class="slider-nav">
+				<a href="#img-1" class="a-active" id="slide-1">1</a>
+				<a href="#img-2" id="slide-2">2</a>
+				<a href="#img-3" id="slide-3">3</a>	
+			</div>
 		</div>
-	</div>
 
+	
+	
 	<link rel="stylesheet" href="styles.css">
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="slider.js"></script>
